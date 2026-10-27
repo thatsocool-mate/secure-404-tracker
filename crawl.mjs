@@ -14,6 +14,8 @@ const DATA = process.env.DATA_DIR || 'data';
 const TZ = 'Asia/Karachi';
 const SKIP_CRAWL = /\.(pdf|png|jpe?g|gif|svg|webp|avif|ico|css|js|mjs|json|xml|txt|zip|mp4|webm|mp3|woff2?|ttf|eot)$/i;
 const BROKEN = new Set([404, 410]);
+// Not real links: Cloudflare's email-protection and other /cdn-cgi/ paths only work in a browser
+const EXCLUDE = /^\/cdn-cgi\//;
 
 const today = new Date().toLocaleDateString('en-CA', { timeZone: TZ });
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -25,6 +27,7 @@ function norm(href, base) {
   let u; try { u = new URL(href, base); } catch { return null; }
   if (!/^https?:$/.test(u.protocol) || !HOSTS.has(u.host)) return null;
   u.protocol = BASE.protocol; u.host = BASE.host; u.hash = ''; u.search = '';
+  if (EXCLUDE.test(u.pathname)) return null;
   return u.toString();
 }
 const pathOf = (u) => { const x = new URL(u); return x.pathname || '/'; };
@@ -54,7 +57,7 @@ async function sitemapUrls() {
   return pages;
 }
 
-const decode = (s) => s.replace(/<[^>]*>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;|&#x27;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/\s+/g, ' ').trim();
+const decode = (s) => s.replace(/<[^>]*>/g, ' ').replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n))).replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;|&#x27;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/\s+/g, ' ').trim();
 function links(html, base) {
   const out = [];
   for (const m of html.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi)) {
@@ -115,6 +118,7 @@ async function main() {
   const statePath = `${DATA}/state.json`;
   const firstRun = !fs.existsSync(statePath);
   const state = firstRun ? { open: {}, fixed: [] } : JSON.parse(fs.readFileSync(statePath, 'utf8'));
+  for (const u of Object.keys(state.open)) if (EXCLUDE.test(new URL(u).pathname)) delete state.open[u];
   const prev = { ...state.open };
   if (runStatus === 'ok') {
     const nowOpen = {};
