@@ -1,8 +1,5 @@
 {
  "open": {
-  "https://www.secure.com/cdn-cgi/l/email-protection": {
-   "first_seen": "2026-10-27"
-  },
   "https://www.secure.com/news/payload-ransomware-chacha20-encryption": {
    "first_seen": "2026-10-27"
   },
@@ -24,10 +21,10 @@
   "https://www.secure.com/news/github-rce-vulnerability-cve-2026-3854": {
    "first_seen": "2026-10-27"
   },
-  "https://www.secure.com/%22https://www.secure.com/asset-discovery/agentless/%22": {
+  "https://www.secure.com/news/axios-npm-supply-chain-attack": {
    "first_seen": "2026-10-27"
   },
-  "https://www.secure.com/news/axios-npm-supply-chain-attack": {
+  "https://www.secure.com/%22https://www.secure.com/asset-discovery/agentless/%22": {
    "first_seen": "2026-10-27"
   },
   "https://www.secure.com/%22http://Secure.com/%22": {
