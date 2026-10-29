@@ -1,25 +1,13 @@
 {
  "open": {
-  "https://www.secure.com/asset-discovery/information-technology": {
-   "first_seen": "2026-10-28"
-  },
-  "https://www.secure.com/asset-discovery/continuous": {
-   "first_seen": "2026-10-28"
-  },
-  "https://www.secure.com/brands-faq": {
-   "first_seen": "2026-10-28"
-  },
   "https://www.secure.com/tag/zero-trust": {
    "first_seen": "2026-10-27"
   },
-  "https://www.secure.com/asset-discovery/industrial-control-system": {
-   "first_seen": "2026-10-28"
+  "https://www.secure.com/news/github-vs-code-extension-breach": {
+   "first_seen": "2026-10-29"
   },
-  "https://www.secure.com/asset-discovery/network": {
-   "first_seen": "2026-10-28"
-  },
-  "https://www.secure.com/news/sailpoint-github-breach-identity-crisis": {
-   "first_seen": "2026-10-28"
+  "https://www.secure.com/%22https://www.secure.com/asset-discovery/agentless/%22": {
+   "first_seen": "2026-10-29"
   }
  },
  "fixed": [
@@ -75,6 +63,42 @@
    "url": "https://www.secure.com/%22http://Secure.com/%22",
    "first_seen": "2026-10-27",
    "fixed_on": "2026-10-28",
+   "how": "No longer linked"
+  },
+  {
+   "url": "https://www.secure.com/asset-discovery/information-technology",
+   "first_seen": "2026-10-28",
+   "fixed_on": "2026-10-29",
+   "how": "Now returns 200"
+  },
+  {
+   "url": "https://www.secure.com/asset-discovery/continuous",
+   "first_seen": "2026-10-28",
+   "fixed_on": "2026-10-29",
+   "how": "Now returns 200"
+  },
+  {
+   "url": "https://www.secure.com/brands-faq",
+   "first_seen": "2026-10-28",
+   "fixed_on": "2026-10-29",
+   "how": "Now returns 200"
+  },
+  {
+   "url": "https://www.secure.com/asset-discovery/industrial-control-system",
+   "first_seen": "2026-10-28",
+   "fixed_on": "2026-10-29",
+   "how": "Now returns 200"
+  },
+  {
+   "url": "https://www.secure.com/asset-discovery/network",
+   "first_seen": "2026-10-28",
+   "fixed_on": "2026-10-29",
+   "how": "Now returns 200"
+  },
+  {
+   "url": "https://www.secure.com/news/sailpoint-github-breach-identity-crisis",
+   "first_seen": "2026-10-28",
+   "fixed_on": "2026-10-29",
    "how": "No longer linked"
   }
  ]
