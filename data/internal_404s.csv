@@ -1,7 +1,5 @@
 url,path,status,state,first_seen,last_seen,days_open,source_count,in_sitemap,sources,fixed_on,how_fixed
-https://www.secure.com/tag/zero-trust,/tag/zero-trust,404,Open,2026-10-27,2026-10-29,2,2,No,/blog/cybersecurity/zero-trust-security-key-principles-explained » Zero Trust | /blog/zero-trust-security-key-principles-explained » Zero Trust,,
-https://www.secure.com/news/github-vs-code-extension-breach,/news/github-vs-code-extension-breach,404,New,2026-10-29,2026-10-29,0,1,No,/news/grafana-tells-extortionists-to-get-lost-after-github-token-breach-exposes-codebase » GitHub,,
-https://www.secure.com/%22https://www.secure.com/asset-discovery/agentless/%22,/%22https://www.secure.com/asset-discovery/agentless/%22,404,New,2026-10-29,2026-10-29,0,1,No,/brands-faq » agentless,,
+https://www.secure.com/%22https://www.secure.com/asset-discovery/agentless/%22,/%22https://www.secure.com/asset-discovery/agentless/%22,404,Open,2026-10-29,2026-10-30,1,1,No,/brands-faq » agentless,,
 https://www.secure.com/news/payload-ransomware-chacha20-encryption,/news/payload-ransomware-chacha20-encryption,,Fixed,2026-10-27,2026-10-28,1,0,,,2026-10-28,No longer linked
 https://www.secure.com/news/lmdeploy-cve-2026-33626-exploited-13-hours,/news/lmdeploy-cve-2026-33626-exploited-13-hours,,Fixed,2026-10-27,2026-10-28,1,0,,,2026-10-28,No longer linked
 https://www.secure.com/blog/cybersecurity/rbac-vs-iam-the-definitive-guide-to-modern-access-governance%5C,/blog/cybersecurity/rbac-vs-iam-the-definitive-guide-to-modern-access-governance%5C,,Fixed,2026-10-27,2026-10-28,1,0,,,2026-10-28,No longer linked
@@ -17,3 +15,5 @@ https://www.secure.com/brands-faq,/brands-faq,,Fixed,2026-10-28,2026-10-29,1,0,,
 https://www.secure.com/asset-discovery/industrial-control-system,/asset-discovery/industrial-control-system,,Fixed,2026-10-28,2026-10-29,1,0,,,2026-10-29,Now returns 200
 https://www.secure.com/asset-discovery/network,/asset-discovery/network,,Fixed,2026-10-28,2026-10-29,1,0,,,2026-10-29,Now returns 200
 https://www.secure.com/news/sailpoint-github-breach-identity-crisis,/news/sailpoint-github-breach-identity-crisis,,Fixed,2026-10-28,2026-10-29,1,0,,,2026-10-29,No longer linked
+https://www.secure.com/tag/zero-trust,/tag/zero-trust,,Fixed,2026-10-27,2026-10-30,3,0,,,2026-10-30,No longer linked
+https://www.secure.com/news/github-vs-code-extension-breach,/news/github-vs-code-extension-breach,,Fixed,2026-10-29,2026-10-30,1,0,,,2026-10-30,No longer linked
