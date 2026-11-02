@@ -1,5 +1,8 @@
 {
  "open": {
+  "https://www.secure.com/tag/soc": {
+   "first_seen": "2026-11-02"
+  },
   "https://www.secure.com/%22https://www.secure.com/asset-discovery/agentless/%22": {
    "first_seen": "2026-10-29"
   }
