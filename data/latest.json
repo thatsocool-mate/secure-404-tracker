@@ -1,11 +1,11 @@
 {
- "date": "2026-11-06",
- "run_at": "2026-11-06T01:31:41.174Z",
+ "date": "2026-11-07",
+ "run_at": "2026-11-07T00:54:17.016Z",
  "status": "ok",
  "note": "",
- "pages_crawled": 1016,
- "links_checked": 1010,
- "broken": 2,
- "new": 0,
+ "pages_crawled": 1045,
+ "links_checked": 1038,
+ "broken": 3,
+ "new": 1,
  "fixed": 0
 }
