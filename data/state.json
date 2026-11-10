@@ -6,9 +6,6 @@
   "https://www.secure.com/tag/soc": {
    "first_seen": "2026-11-02"
   },
-  "https://www.secure.com/asset-discovery/industrial-control-system": {
-   "first_seen": "2026-11-09"
-  },
   "https://www.secure.com/%22https://www.secure.com/asset-discovery/agentless/%22": {
    "first_seen": "2026-10-29"
   }
@@ -115,6 +112,12 @@
    "first_seen": "2026-10-29",
    "fixed_on": "2026-10-30",
    "how": "No longer linked"
+  },
+  {
+   "url": "https://www.secure.com/asset-discovery/industrial-control-system",
+   "first_seen": "2026-11-09",
+   "fixed_on": "2026-11-10",
+   "how": "Now returns 200"
   }
  ]
 }
