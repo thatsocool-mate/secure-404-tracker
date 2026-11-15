@@ -1,5 +1,8 @@
 {
  "open": {
+  "https://www.secure.com/asset-discovery/automation": {
+   "first_seen": "2026-11-15"
+  },
   "https://www.secure.com/tag/appsec-teammate": {
    "first_seen": "2026-11-07"
   },
