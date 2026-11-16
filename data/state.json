@@ -1,8 +1,5 @@
 {
  "open": {
-  "https://www.secure.com/asset-discovery/automation": {
-   "first_seen": "2026-11-15"
-  },
   "https://www.secure.com/tag/appsec-teammate": {
    "first_seen": "2026-11-07"
   },
@@ -123,6 +120,12 @@
    "url": "https://www.secure.com/asset-discovery/industrial-control-system",
    "first_seen": "2026-11-09",
    "fixed_on": "2026-11-10",
+   "how": "Now returns 200"
+  },
+  {
+   "url": "https://www.secure.com/asset-discovery/automation",
+   "first_seen": "2026-11-15",
+   "fixed_on": "2026-11-16",
    "how": "Now returns 200"
   }
  ]
