@@ -1,13 +1,13 @@
 {
  "open": {
-  "https://www.secure.com/tag/appsec-teammate": {
-   "first_seen": "2026-11-07"
+  "https://www.secure.com/tag/soc": {
+   "first_seen": "2026-11-02"
   },
   "https://www.secure.com/tag/compliance-teammate": {
    "first_seen": "2026-11-18"
   },
-  "https://www.secure.com/tag/soc": {
-   "first_seen": "2026-11-02"
+  "https://www.secure.com/tag/appsec-teammate": {
+   "first_seen": "2026-11-07"
   },
   "https://www.secure.com/news/infostealers-hijack-ai-login-sessions": {
    "first_seen": "2026-11-14"
