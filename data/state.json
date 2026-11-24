@@ -1,5 +1,8 @@
 {
  "open": {
+  "https://www.secure.com/brands-faq": {
+   "first_seen": "2026-11-24"
+  },
   "https://www.secure.com/tag/appsec-teammate": {
    "first_seen": "2026-11-07"
   },
@@ -11,9 +14,6 @@
   },
   "https://www.secure.com/news/infostealers-hijack-ai-login-sessions": {
    "first_seen": "2026-11-14"
-  },
-  "https://www.secure.com/%22https://www.secure.com/asset-discovery/agentless/%22": {
-   "first_seen": "2026-10-29"
   }
  },
  "fixed": [
@@ -130,6 +130,12 @@
    "first_seen": "2026-11-15",
    "fixed_on": "2026-11-16",
    "how": "Now returns 200"
+  },
+  {
+   "url": "https://www.secure.com/%22https://www.secure.com/asset-discovery/agentless/%22",
+   "first_seen": "2026-10-29",
+   "fixed_on": "2026-11-24",
+   "how": "No longer linked"
   }
  ]
 }
