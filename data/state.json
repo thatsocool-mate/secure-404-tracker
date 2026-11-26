@@ -1,13 +1,22 @@
 {
  "open": {
-  "https://www.secure.com/tag/compliance-teammate": {
-   "first_seen": "2026-11-18"
+  "https://www.secure.com/campaign/stretched-security-teams": {
+   "first_seen": "2026-11-26"
+  },
+  "https://www.secure.com/campaign/fix-backlog": {
+   "first_seen": "2026-11-26"
   },
   "https://www.secure.com/tag/appsec-teammate": {
    "first_seen": "2026-11-07"
   },
+  "https://www.secure.com/tag/compliance-teammate": {
+   "first_seen": "2026-11-18"
+  },
   "https://www.secure.com/tag/soc": {
    "first_seen": "2026-11-02"
+  },
+  "https://www.secure.com/blog/soc/context-driven-vulnerability-management-a-strategic-shift-from-static-scoring-to-decision-centric-risk-mitigation": {
+   "first_seen": "2026-11-26"
   },
   "https://www.secure.com/news/infostealers-hijack-ai-login-sessions": {
    "first_seen": "2026-11-14"
